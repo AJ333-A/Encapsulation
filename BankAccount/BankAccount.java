@@ -1,3 +1,5 @@
+//code on encapsulation
+//class
 class BankAccount{
     private double balance;
     public BankAccount(double initialBalance){
@@ -22,7 +24,7 @@ class BankAccount{
     public double getBalance() {
         return balance;
     }
-
+//main
     public static void main(String[] args) {
         BankAccount myAccount = new BankAccount(500);
         myAccount.deposit(4000);
