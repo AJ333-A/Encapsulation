@@ -1,3 +1,5 @@
+//code on car rentals
+//class
 class Car {
     private String licensePlate;
     private boolean isRented;
